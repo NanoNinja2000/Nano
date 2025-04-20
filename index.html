@@ -33,25 +33,17 @@ button {
             <body>
 
 <h2>Contact us</h2>
-<form action="https://formsubmit.co/jenii1698@gmail.com" method="POST">
-    <input type="hidden" name="_template" value="box">
-    <input type="hidden" name="_replyto" id="email">
-  <!-- Disable CAPTCHA (optional) -->
-  <input type="hidden" name="_captcha" value="false">
 
-  <!-- Redirect to thank you page (optional) -->
-  <input type="hidden" name="_next" value="https://nanoninja2000.github.io/Nano/contact.html">
+<form action="https://formsubmit.co/youremail@example.com" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required> <!-- _replyto happens here -->
+  <textarea name="message" placeholder="Your Message" required></textarea>
+    <input type="hidden" name="_captcha" value="false">
 
-  <label for="name">Name:</label><br>
-  <input type="text" name="name" id="name" required><br><br>
+  <!-- Optional: redirect to a thank you page -->
+  <input type="hidden" name="_next" value="https://www.youngadults4christ.com/index.html">
 
-  <label for="email">Email:</label><br>
-  <input type="email" name="email" id="email" required><br><br>
-
-  <label for="message">Message:</label><br>
-  <textarea name="message" id="message" rows="5" required></textarea><br><br>
-
-  <button type="submit">Send</button>
+  <button type="submit">Send Message</button>
 </form>
 
 
