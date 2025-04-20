@@ -33,21 +33,23 @@ button {
             <body>
 
 <h2>Contact us</h2>
-               <form action="https://formsubmit.co/jenii1698@gmail.com" method="POST">
-  <!-- Disable CAPTCHA (optional) -->
-  <input type="hidden" name="_captcha" value="false">
-
-  <!-- Redirect to thank you page (optional) -->
-  <!--<input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">-->
-
-  <label for="name">Name:</label><br>
-  <input type="text" name="name" id="name" required><br><br>
-
-  <label for="email">Email:</label><br>
-  <input type="email" name="email" id="email" required><br><br>
-
-  <label for="message">Message:</label><br>
-  <textarea name="message" id="message" rows="5" required></textarea><br><br>
+               <form
+  action="https://formspree.io/f/myzerlzd"
+  method="POST"
+>
+<label>Name:</label><br>
+<input type="text" name="name" required><br>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
   <button type="submit">Send</button>
 </form>
